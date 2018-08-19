@@ -6,22 +6,8 @@ class Fizzbuzz
             "Fizz"
         elsif input % 5 == 0
             "Buzz"
-        elsif input == 1
-            "1"
-        elsif input == 2
-            "2"
-        elsif input ==4
-            "4"
-        elsif input ==7
-            "7"
-        elsif input == 8
-            "8"
-        elsif input == 11
-            "11"  
-        elsif input == 13
-            "13"
-        elsif input == 14
-            "14"
+        else 
+            input.to_s
         end
     end
 end
