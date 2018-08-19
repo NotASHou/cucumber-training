@@ -1,35 +1,29 @@
 class Fizzbuzz
     def count(input)
-        if input == 1
+        if input % 15 == 0
+            "FizzBuzz"
+        elsif input % 3 == 0
+            "Fizz"
+        elsif input == 1
             "1"
         elsif input == 2
             "2"
-        elsif input == 3
-             "Fizz"
         elsif input ==4
             "4"
         elsif input ==5
             "Buzz"
-        elsif input ==6
-            "Fizz"
         elsif input ==7
             "7"
         elsif input == 8
             "8"
-        elsif input == 9
-            "Fizz"
         elsif input == 10
             "Buzz"  
         elsif input == 11
             "11"  
-        elsif input == 12
-            "Fizz"
         elsif input == 13
             "13"
         elsif input == 14
             "14"
-        elsif input == 15
-            "FizzBuzz"
         end
     end
 end
