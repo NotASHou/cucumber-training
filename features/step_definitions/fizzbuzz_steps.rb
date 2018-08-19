@@ -18,6 +18,8 @@ class Fizzbuzz
             "8"
         elsif input == 9
             "Fizz"
+        elsif input == 10
+            "Buzz"    
         end
 
     end

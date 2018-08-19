@@ -41,3 +41,7 @@ Scenario: 9 Is Fizz
     Given I got 9
     When I count
     Then I should get "Fizz"
+Scenario: 10 Is Buzz
+    Given I got 10
+    When I count
+    Then I should get "Buzz"
