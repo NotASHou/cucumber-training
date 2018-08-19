@@ -4,6 +4,8 @@ class Fizzbuzz
             "1"
         elsif input == 2
             "2"
+        elsif input == 3
+             "Fizz"
         end
     end
 end
