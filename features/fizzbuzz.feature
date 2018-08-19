@@ -43,3 +43,12 @@ Scenario Outline: ตัวเลขที่หารด้วย 3 และ 5
     | 11 | "11" |
     | 13 | "13" |
     | 14 | "14" |
+
+Scenario Outline: ตัวเลขที่หาร 3 และ 5 ลงตัว
+    Given I got <input>
+    When I count 
+    Then I should get <Expected>
+
+    Examples:
+    |input | Expected |
+    |15    | "FizzBuzz" |
