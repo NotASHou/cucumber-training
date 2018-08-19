@@ -4,20 +4,18 @@ class Fizzbuzz
             "FizzBuzz"
         elsif input % 3 == 0
             "Fizz"
+        elsif input % 5 == 0
+            "Buzz"
         elsif input == 1
             "1"
         elsif input == 2
             "2"
         elsif input ==4
             "4"
-        elsif input ==5
-            "Buzz"
         elsif input ==7
             "7"
         elsif input == 8
             "8"
-        elsif input == 10
-            "Buzz"  
         elsif input == 11
             "11"  
         elsif input == 13
