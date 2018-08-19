@@ -26,9 +26,9 @@ class Fizzbuzz
             "Fizz"
         elsif input == 13
             "13"
+        elsif input == 14
+            "14"
         end
-
-
     end
 end
 

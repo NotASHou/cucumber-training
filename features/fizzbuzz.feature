@@ -60,3 +60,8 @@ Scenario: 13 Is 13
     Given I got 13
     When I count
     Then I should get "13"
+
+Scenario: 14 Is 14
+    Given I got 14
+    When I count
+    Then I should get "14"
