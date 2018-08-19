@@ -31,3 +31,8 @@ Scenario: 7 Is 7
     Given I got 7
     When I count
     Then I should get "7"
+
+Scenario: 8 Is 8
+    Given I got 8
+    When I count
+    Then I should get "8"
