@@ -36,3 +36,8 @@ Scenario: 8 Is 8
     Given I got 8
     When I count
     Then I should get "8"
+
+Scenario: 9 Is Fizz
+    Given I got 9
+    When I count
+    Then I should get "Fizz"
