@@ -23,3 +23,7 @@ Scenario: 5 Is Buzz
     Given I got 5
     When I count
     Then I should get "Buzz"
+Scenario: 6 Is Fizz
+    Given I got 6
+    When I count
+    Then I should get "Fizz"
