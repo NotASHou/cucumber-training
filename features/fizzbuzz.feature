@@ -18,14 +18,15 @@ Scenario Outline: ตัวเลขที่หาร 3 ลงตัว
     |12     | "Fizz"   |
 
 
-Scenario: 5 Is Buzz
-    Given I got 5
+Scenario Outline: ตัวเลขที่หาร 5 ลงตัว
+    Given I got <input>
     When I count
-    Then I should get "Buzz"
-Scenario: 10 Is Buzz
-    Given I got 10
-    When I count
-    Then I should get "Buzz"
+    Then I should get <Expected>
+
+    Examples:
+    | input | Expected |
+    | 5     | "Buzz"   |
+    | 10    | "Buzz"   |
 
 Scenario: 1 Is 1
     Given  I got 1
