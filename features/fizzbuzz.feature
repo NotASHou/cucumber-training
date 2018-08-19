@@ -13,3 +13,8 @@ Scenario: 3 Is Fizz
     Given I got 3
     When I count
     Then I should get "Fizz"
+
+Scenario: 4 Is 4
+    Given I got 4
+    When I count
+    Then I should get "4"    
