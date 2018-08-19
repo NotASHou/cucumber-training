@@ -1,8 +1,13 @@
 class Fizzbuzz
     def count(input)
-        "1"
+        if input == 1
+            "1"
+        elsif input == 2
+            "2"
+        end
     end
 end
+
 
 Given("I got {int}") do |input|
     #@input is global variable
