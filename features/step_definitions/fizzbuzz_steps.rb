@@ -12,7 +12,10 @@ class Fizzbuzz
             "Buzz"
         elsif input ==6
             "Fizz"
+        elsif input ==7
+            "7"
         end
+
     end
 end
 

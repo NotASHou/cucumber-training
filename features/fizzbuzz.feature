@@ -27,3 +27,7 @@ Scenario: 6 Is Fizz
     Given I got 6
     When I count
     Then I should get "Fizz"
+Scenario: 7 Is 7
+    Given I got 7
+    When I count
+    Then I should get "7"
