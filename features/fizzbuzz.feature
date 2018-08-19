@@ -65,3 +65,8 @@ Scenario: 14 Is 14
     Given I got 14
     When I count
     Then I should get "14"
+
+Scenario: 15 Is FizzBuzz
+    Given I got 15
+    When I count
+    Then I should get "FizzBuzz"
