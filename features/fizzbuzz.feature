@@ -45,3 +45,8 @@ Scenario: 10 Is Buzz
     Given I got 10
     When I count
     Then I should get "Buzz"
+
+Scenario: 11 Is 11
+    Given I got 11
+    When I count
+    Then I should get "11"

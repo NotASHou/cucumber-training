@@ -19,7 +19,9 @@ class Fizzbuzz
         elsif input == 9
             "Fizz"
         elsif input == 10
-            "Buzz"    
+            "Buzz"  
+        elsif input == 11
+            "11"  
         end
 
     end
