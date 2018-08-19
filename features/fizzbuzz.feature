@@ -28,35 +28,18 @@ Scenario Outline: ตัวเลขที่หาร 5 ลงตัว
     | 5     | "Buzz"   |
     | 10    | "Buzz"   |
 
-Scenario: 1 Is 1
-    Given  I got 1
+Scenario Outline: ตัวเลขที่หารด้วย 3 และ 5 ไม่ลงตัว
+    Given I got <input>
     When I count
-    Then I should get "1"
-Scenario: 2 Is 2
-    Given I got 2 
-    When I count 
-    Then I should get "2"
-Scenario: 4 Is 4
-    Given I got 4
-    When I count
-    Then I should get "4"   
-Scenario: 7 Is 7
-    Given I got 7
-    When I count
-    Then I should get "7"
-Scenario: 8 Is 8
-    Given I got 8
-    When I count
-    Then I should get "8"
-Scenario: 11 Is 11
-    Given I got 11
-    When I count
-    Then I should get "11"
-Scenario: 13 Is 13
-    Given I got 13
-    When I count
-    Then I should get "13"
-Scenario: 14 Is 14
-    Given I got 14
-    When I count
-    Then I should get "14"
+    Then I should get <Expected>
+
+    Examples:
+    | input | Expected |
+    | 1 | "1" |
+    | 2 | "2" |
+    | 4 | "4" |
+    | 7 | "7" |
+    | 8 | "8" |
+    | 11 | "11" |
+    | 13 | "13" |
+    | 14 | "14" |
