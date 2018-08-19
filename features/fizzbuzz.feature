@@ -5,22 +5,18 @@ Scenario: 15 Is FizzBuzz
     When I count
     Then I should get "FizzBuzz"
 
-Scenario: 3 Is Fizz
-    Given I got 3
+Scenario Outline: ตัวเลขที่หาร 3 ลงตัว
+    Given I got <input>
     When I count
-    Then I should get "Fizz"
-Scenario: 6 Is Fizz
-    Given I got 6
-    When I count
-    Then I should get "Fizz"
-Scenario: 9 Is Fizz
-    Given I got 9
-    When I count
-    Then I should get "Fizz"
-Scenario: 12 Is Fizz
-    Given I got 12
-    When I count
-    Then I should get "Fizz"
+    Then I should get <Expected>
+
+    Examples: 
+    | input | Expected |
+    | 3     | "Fizz"   |
+    | 6     | "Fizz"   |
+    | 9     | "Fizz"   |
+    |12     | "Fizz"   |
+
 
 Scenario: 5 Is Buzz
     Given I got 5
