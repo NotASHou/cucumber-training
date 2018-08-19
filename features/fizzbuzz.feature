@@ -17,4 +17,9 @@ Scenario: 3 Is Fizz
 Scenario: 4 Is 4
     Given I got 4
     When I count
-    Then I should get "4"    
+    Then I should get "4"   
+
+Scenario: 5 Is Buzz
+    Given I got 5
+    When I count
+    Then I should get "Buzz"
